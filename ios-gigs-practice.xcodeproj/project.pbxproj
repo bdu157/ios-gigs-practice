@@ -11,6 +11,13 @@
 		0B0229C222B324FB00D79E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0229C022B324FB00D79E29 /* Main.storyboard */; };
 		0B0229C422B324FC00D79E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0229C322B324FC00D79E29 /* Assets.xcassets */; };
 		0B0229C722B324FC00D79E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0229C522B324FC00D79E29 /* LaunchScreen.storyboard */; };
+		0B0229CF22B32B7600D79E29 /* GigsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229CE22B32B7600D79E29 /* GigsTableViewController.swift */; };
+		0B0229D122B32D9D00D79E29 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229D022B32D9D00D79E29 /* LoginViewController.swift */; };
+		0B0229D322B33B0900D79E29 /* GigsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229D222B33B0900D79E29 /* GigsDetailViewController.swift */; };
+		0B0229D522B33B6F00D79E29 /* Gig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229D422B33B6F00D79E29 /* Gig.swift */; };
+		0B0229D722B33BC200D79E29 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229D622B33BC200D79E29 /* Bearer.swift */; };
+		0B0229D922B33BF100D79E29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229D822B33BF100D79E29 /* User.swift */; };
+		0B0229DB22B33C2400D79E29 /* GigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0229DA22B33C2400D79E29 /* GigController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		0B0229C322B324FC00D79E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B0229C622B324FC00D79E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B0229C822B324FC00D79E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0229CE22B32B7600D79E29 /* GigsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigsTableViewController.swift; sourceTree = "<group>"; };
+		0B0229D022B32D9D00D79E29 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0B0229D222B33B0900D79E29 /* GigsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigsDetailViewController.swift; sourceTree = "<group>"; };
+		0B0229D422B33B6F00D79E29 /* Gig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig.swift; sourceTree = "<group>"; };
+		0B0229D622B33BC200D79E29 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		0B0229D822B33BF100D79E29 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0B0229DA22B33C2400D79E29 /* GigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				0B0229C322B324FC00D79E29 /* Assets.xcassets */,
 				0B0229C522B324FC00D79E29 /* LaunchScreen.storyboard */,
 				0B0229C822B324FC00D79E29 /* Info.plist */,
+				0B0229CE22B32B7600D79E29 /* GigsTableViewController.swift */,
+				0B0229D022B32D9D00D79E29 /* LoginViewController.swift */,
+				0B0229D222B33B0900D79E29 /* GigsDetailViewController.swift */,
+				0B0229D422B33B6F00D79E29 /* Gig.swift */,
+				0B0229D622B33BC200D79E29 /* Bearer.swift */,
+				0B0229D822B33BF100D79E29 /* User.swift */,
+				0B0229DA22B33C2400D79E29 /* GigController.swift */,
 			);
 			path = "ios-gigs-practice";
 			sourceTree = "<group>";
@@ -132,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0229D122B32D9D00D79E29 /* LoginViewController.swift in Sources */,
+				0B0229DB22B33C2400D79E29 /* GigController.swift in Sources */,
+				0B0229D322B33B0900D79E29 /* GigsDetailViewController.swift in Sources */,
+				0B0229D722B33BC200D79E29 /* Bearer.swift in Sources */,
 				0B0229BD22B324FB00D79E29 /* AppDelegate.swift in Sources */,
+				0B0229CF22B32B7600D79E29 /* GigsTableViewController.swift in Sources */,
+				0B0229D522B33B6F00D79E29 /* Gig.swift in Sources */,
+				0B0229D922B33BF100D79E29 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
